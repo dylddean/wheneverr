@@ -1,0 +1,260 @@
+body {
+    margin: 0;
+  }
+  
+  .sb-title {
+    position: relative;
+    top: -12px;
+    font-family: Roboto, sans-serif;
+    font-weight: 500;
+  }
+  
+  .sb-title-icon {
+    position: relative;
+    top: -5px;
+  }
+  
+  .card-container {
+    display: flex;
+    height: 285px;
+    width: 100%;
+    background: rgba(0, 0, 0, 0.6);
+    color: black;
+  }
+  
+  .panel {
+    background: white;
+    width: 300px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+  }
+  
+  .half-input-container {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .half-input {
+    max-width: 120px;
+  }
+  
+  
+  
+  h2 {
+    margin: 0;
+    font-family: Roboto, sans-serif;
+  }
+  
+  input {
+    height: 30px;
+  }
+  
+  input {
+    border: 0;
+    border-bottom: 1px solid black;
+    font-size: 14px;
+    font-family: Roboto, sans-serif;
+    font-style: normal;
+    font-weight: normal;
+  }
+  
+  input:focus::placeholder {
+    color: white;
+  }
+  
+  
+  .button1 {
+    cursor: pointer;
+    background :linear-gradient(90deg, #000000 0%, rgb(58, 56, 49) 100%);
+    color: white;
+    border-radius: 75px;
+    height: 50px;
+    width: 200px;
+    border: none; 
+  }
+
+  button:hover {
+    color: pink;
+  }
+  
+  
+  .content,
+  .content1,
+  .content2 {
+    background-color: white;
+    font: 100 24px/100px sans-serif;
+    height: 650px;
+    max-width: 100%;
+    text-align: center;
+    justify-content: space-around;
+  }
+  
+  
+  .mortgage-app {
+    color: rgb(31 41 55);
+    font: 100 24px/100px sans-serif;
+    font-weight: 700;
+    font-size: 45px;
+  }
+  
+  
+  
+  .content1 {
+    background-color: white;
+    display: flex;
+    
+    max-width: 500px;
+    max-width: 100%;
+    display: flex;
+    color: black;
+  }
+  
+  .content4 {
+    width: 300px;
+    padding: 20px;
+    margin-bottom: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    color: black;
+  
+  }
+  
+  .content5 {
+    max-width: max-content;
+    height: auto;
+    color: black;
+  }
+  
+  .dbox {
+    height: 50px;
+  }
+  
+  .dropbtn {
+    background-color: #2980B9;
+    color: rgb(255, 255, 255);
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+    height: 40px;
+  }
+  
+  .menu {
+    color: rgba(157,163,175,255);
+  }
+  
+  
+  link {
+    list-style-type: none;  
+    font-weight: bold;  
+    font-size: 20px;  
+  }
+  
+  .w-full {
+    width: 100%;
+  }
+  
+  .flex {
+    display: flex;
+  }
+  
+  .md\:flex-row {
+    flex-direction: row;
+  }
+  
+  .py-6 {
+    padding-top: 1.5rem;
+    padding-bottom: 1.5rem;
+  }
+  
+  .flex-1 {
+    flex-grow : 1;
+    flex-shrink : 1;
+    flex-basis : 0%;
+    text-align: center;
+    flex-direction: column;
+  }
+  
+  .flex-2 {
+    color: gray;
+    text-align: left;
+    flex-grow : 1;
+    flex-shrink : 1;
+    flex-basis : 0%;
+    flex-direction: column;
+  }
+  
+  li {
+    list-style: none;
+    text-align: left;
+  }
+  
+  li a {
+    text-decoration: none;
+    color: rgb(210, 210, 210);
+  }
+  
+  li a:hover {
+    color: pink;
+  }
+  
+  .mx-auto {
+    margin-left: auto;
+    margin-right: auto;
+  }
+  
+  .items-center {
+    align-items: center;
+  }
+  
+  .top {
+    width: 100%;
+    margin-right: 270px;
+    align-items: center;
+  }
+  
+  .whenever {
+    margin-left: 270px;
+    font-size: 50px;
+  }
+  
+  
+  
+  .navbar {
+    position: sticky;
+    background :linear-gradient(90deg, #000000 0%, rgb(58, 56, 49) 100%);
+    top: 0;
+    width: 100%;
+    z-index: 1;
+  }
+  
+  .navbar a{
+    float: right;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  .text-white{
+    color: white;
+    font-size: 1.5rem;
+  }
+  
+  .font-bold {
+    font-weight: 700;
+    font-size: 34px;
+  }
+  
+  .text-2x1 {
+    font-size: 1.5rem;
+    line-height: 2rem;
+  }
+
+  .lets {
+      font-size: 25px;
+      color: rgb(31 41 55);
+  }
+  
